@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "swift-connection-pool",
     platforms: [
-        .macOS(.v26), .iOS(.v26)
+        .macOS(.v15), .iOS(.v18), .tvOS(.v18), .watchOS(.v11), .visionOS(.v2)
     ],
     products: [
         .library(
